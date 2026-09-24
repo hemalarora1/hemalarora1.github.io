@@ -1,10 +1,10 @@
 # Selected Work cards on the about page (rendered by _includes/entry_card.liquid).
 # Fields: title, subtitle, meta, image (path under assets/img/), tags, links (name + url), description.
 
-- title: Mosaic Intelligence Labs, Inc.
+- title: Mosaic Intelligence Labs, Inc. (Stealth Startup)
   subtitle: Member of Technical Staff
   meta: San Francisco, CA · June – Sept 2026
-  image:
+  image: work/mosaic.jpg
   tags: [Simulation, State Estimation, Computer Vision, NVIDIA Warp/OptiX]
   description: >
     Built simulation, synthetic-data, and model-training pipelines for endovascular surgical perception, spanning X-ray fluoroscopy, intravascular
@@ -14,7 +14,8 @@
 - title: Multiply Labs
   subtitle: Robotics Software Engineer
   meta: San Francisco, CA · June – Dec 2025
-  image:
+  image: work/multiply_motion_planner.jpg
+  video: work/multiply_motion_planner.mp4
   tags: [Imitation Learning, Motion Planning, Isaac Sim, UR10e]
   description: >
     Worked across robot learning, motion planning, and vision for a robotic cell-therapy manufacturing cluster. Developed a motion-planning system in
@@ -23,12 +24,15 @@
 
 - title: PickleBot
   subtitle: "Stanford CS225a: Experimental Robotics"
-  meta: "2026"
-  image:
+  meta: Stanford, CA · 2026
+  image: work/picklebot.jpg
+  video: work/picklebot.mp4
   tags: [Mobile Manipulation, Planning, Real-time Control, TidyBot++, Franka FR3]
   links:
     - name: Video
       url: https://youtu.be/JYvkDmDZEKc
+    - name: Report
+      url: /assets/pdf/picklebot_cs225a_report.pdf
   description: >
     Built an autonomous pickleball-playing mobile manipulator that tracks an incoming ball, predicts its intercept, repositions a mobile base, and
     executes velocity-controlled strikes with a Franka FR3. The system continuously replans at 100 Hz with OptiTrack tracking and joint-space Hermite

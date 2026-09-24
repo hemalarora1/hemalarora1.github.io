@@ -26,11 +26,12 @@ latest_posts:
   .section h2 { scroll-margin-top: 7rem; margin-bottom: 2rem; }
   .section hr { margin: 3rem 0 2rem; }
   .links { font-family: monospace; margin-top: 2rem; }
-  .callout { border-left: 3px solid var(--global-theme-color); padding-left: 1rem; margin: 1.5rem 0; color: var(--global-text-color-light); }
+  .callout { border-left: 3px solid var(--global-theme-color); padding-left: 1rem; margin: 1.5rem 0; color: var(--global-text-color); font-weight: 500; }
 
   .entry-card { display: flex; gap: 2rem; margin-bottom: 3rem; }
   .entry-thumb { flex: 0 0 34%; }
-  .entry-thumb img, .entry-thumb-placeholder { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 8px; border: 1px solid var(--global-divider-color); }
+  .entry-thumb img, .entry-thumb video, .entry-thumb-placeholder { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 8px; border: 1px solid var(--global-divider-color); }
+  .entry-thumb img, .entry-thumb video { display: block; }
   .entry-thumb-placeholder { background: color-mix(in srgb, var(--global-theme-color) 10%, transparent); }
   .entry-body { flex: 1; min-width: 0; }
   .entry-title { font-size: 1.3rem; font-weight: 700; line-height: 1.3; margin: 0 0 0.4rem; color: var(--global-text-color); }

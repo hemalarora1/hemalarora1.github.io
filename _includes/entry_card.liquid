@@ -1,7 +1,9 @@
 {%- comment -%} One Selected Work / Research card. Pass `entry` (an item from _data/work.yml or _data/research.yml). {%- endcomment -%}
 <div class="entry-card">
 <div class="entry-thumb">
-{%- if include.entry.image -%}
+{%- if include.entry.video -%}
+<video src="{{ include.entry.video | prepend: '/assets/video/' | relative_url }}"{% if include.entry.image %} poster="{{ include.entry.image | prepend: '/assets/img/' | relative_url }}"{% endif %} autoplay muted loop playsinline preload="metadata" aria-label="{{ include.entry.title | escape }}"></video>
+{%- elsif include.entry.image -%}
 <img src="{{ include.entry.image | prepend: '/assets/img/' | relative_url }}" alt="{{ include.entry.title | escape }}" loading="lazy">
 {%- else -%}
 <div class="entry-thumb-placeholder"></div>

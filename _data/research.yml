@@ -4,7 +4,7 @@
 - title: "ClothAtlas: Joint Garment Identification and State Estimation under Self-Occlusion"
   authors: Jens Lundell, Alberta Longhini, Hemal Arora, Evan Robert, Lei Shu, Carlota Pares-Morlans, Marcel Büsching, Mårten Björkman, Jeannette Bohg
   venue: Submitted to ICRA 2027
-  image:
+  image: work/clothatlas.jpg
   tags: [Deformable Manipulation, State Estimation, Flow Matching]
   description: >
     ClothAtlas jointly identifies a garment from a library of canonical meshes and estimates its complete 3D configuration from partial point clouds. A
@@ -15,13 +15,13 @@
 - title: "MM-Wave Radar Vitals Sensing: Towards Non-Contact Cardiac and Respiratory Gating for MRI"
   authors: Hemal Arora, Fraser Robb, Shreyas Vasanawala, John Pauly, Greig Scott
   venue: ISMRM 2025
-  image:
+  image: work/ismrm_radar.jpg
   tags: [RF Sensing, Signal Processing, PCB Design]
   links:
     - name: Abstract
       url: https://archive.ismrm.org/2025/4979.html
     - name: PDF
-      url: https://drive.google.com/file/d/1MWXw6hPR_6DPBxsxr42aAeR0kthQOwMp/view
+      url: /assets/pdf/ismrm2025_mmwave_radar_abstract.pdf
   description: >
     Developed hardware and signal processing for a four-channel 24 GHz mm-wave radar system for non-contact cardiac and respiratory sensing in MRI,
     including custom PCBs and an SSA/ICA-based waveform-separation pipeline. Evaluated radar-based physiological sensing as a step toward contactless
