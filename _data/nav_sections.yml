@@ -1,0 +1,5 @@
+# Navbar links that scroll to sections of the about page (rendered by _includes/header.liquid)
+- id: work
+  title: Selected Work
+- id: research
+  title: Research
