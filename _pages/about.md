@@ -21,6 +21,7 @@ latest_posts:
 
 <style>
   html { scroll-behavior: smooth; }
+  .post-title, .section h2 { font-weight: 700; }
   .section { clear: both; }
   .section h2 { scroll-margin-top: 7rem; }
   .section hr { margin: 3rem 0 2rem; }
