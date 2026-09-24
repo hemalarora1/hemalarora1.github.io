@@ -141,7 +141,7 @@
               </button>
               <script>
                 // theme.js's click handler calls toggleThemeSetting(); flip between light and dark only.
-                toggleThemeSetting = () => setThemeSetting(determineComputedTheme() == "dark" ? "light" : "dark");
+                toggleThemeSetting = () => setThemeSetting(determineComputedTheme() == 'dark' ? 'light' : 'dark');
               </script>
               <style>
                 #light-toggle.theme-pill {
@@ -154,10 +154,10 @@
                   gap: 0.4rem;
                 }
                 #light-toggle .theme-pill-to-light,
-                html[data-theme="dark"] #light-toggle .theme-pill-to-dark {
+                html[data-theme='dark'] #light-toggle .theme-pill-to-dark {
                   display: none;
                 }
-                html[data-theme="dark"] #light-toggle .theme-pill-to-light {
+                html[data-theme='dark'] #light-toggle .theme-pill-to-light {
                   display: inline;
                 }
                 /* Local override: hide the site footer bar */

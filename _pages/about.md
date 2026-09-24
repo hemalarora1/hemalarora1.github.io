@@ -47,6 +47,7 @@ I'm an undergraduate researcher at Stanford University's [Interactive Perception
 ## Selected Work {#work}
 
 {: .entries}
+
 - **Multiply Labs** · Robotics Software Engineering Intern <span class="meta">· Jun–Dec 2025</span><br>
   Robot learning and motion generation for automated cell-therapy manufacturing. Trained Diffusion Policy and ACT models for millimeter-scale cartridge insertion on a UR10e, and built collision-free motion generation in NVIDIA Isaac Sim.
 - **Stanford Autonomous Underwater Vehicle Team** · Robotics Software Engineer <span class="meta">· Jan 2026–present</span><br>
@@ -68,6 +69,7 @@ I'm an undergraduate researcher at Stanford University's [Interactive Perception
 ## Research {#research}
 
 {: .entries}
+
 - **MM-Wave Radar Vitals Sensing: Towards Non-Contact Cardiac and Respiratory Gating for MRI**<br>
   **H. Arora**, F. Robb, S. Vasanawala, J. Pauly, G. Scott<br>
   <span class="meta">ISMRM 2025</span> · [abstract](https://drive.google.com/file/d/1MWXw6hPR_6DPBxsxr42aAeR0kthQOwMp/view?usp=sharing)
