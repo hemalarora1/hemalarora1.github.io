@@ -1,24 +1,55 @@
 {%- comment -%} One Selected Work / Research card. Pass `entry` (an item from _data/work.yml or _data/research.yml). {%- endcomment -%}
 <div class="entry-card">
-<div class="entry-thumb">
-{%- if include.entry.video -%}
-<video src="{{ include.entry.video | prepend: '/assets/video/' | relative_url }}"{% if include.entry.image %} poster="{{ include.entry.image | prepend: '/assets/img/' | relative_url }}"{% endif %} autoplay muted loop playsinline preload="metadata" aria-label="{{ include.entry.title | escape }}"></video>
-{%- elsif include.entry.image -%}
-<img src="{{ include.entry.image | prepend: '/assets/img/' | relative_url }}" alt="{{ include.entry.title | escape }}" loading="lazy">
-{%- else -%}
-<div class="entry-thumb-placeholder"></div>
-{%- endif -%}
-</div>
-<div class="entry-body">
-<h3 class="entry-title">{{ include.entry.title }}</h3>
-{%- if include.entry.subtitle %}<div class="entry-subtitle">{{ include.entry.subtitle }}</div>{% endif -%}
-{%- if include.entry.authors %}<div class="entry-authors">{{ include.entry.authors | replace: 'Hemal Arora', '<strong>Hemal Arora</strong>' }}</div>{% endif -%}
-<div class="entry-meta">
-{%- if include.entry.venue %}<span class="entry-venue">{{ include.entry.venue }}</span>{% endif -%}
-{%- if include.entry.meta %}<span>{{ include.entry.meta }}</span>{% endif -%}
-</div>
-{%- if include.entry.tags %}<div class="entry-tags">{% for tag in include.entry.tags %}<span>{{ tag }}</span>{% endfor %}</div>{% endif -%}
-{%- if include.entry.links %}<div class="entry-links">{% for link in include.entry.links %}<a href="{{ link.url }}">{{ link.name }}</a>{% endfor %}</div>{% endif -%}
-<p class="entry-desc">{{ include.entry.description | strip }}</p>
-</div>
+  <div class="entry-thumb">
+    {%- if include.entry.video -%}
+      <video
+        src="{{ include.entry.video | prepend: '/assets/video/' | relative_url }}"
+        {% if include.entry.image %}
+          poster="{{ include.entry.image | prepend: '/assets/img/' | relative_url }}"
+        {% endif %}
+        autoplay
+        muted
+        loop
+        playsinline
+        preload="metadata"
+        aria-label="{{ include.entry.title | escape }}"
+      ></video>
+    {%- elsif include.entry.image -%}
+      <img src="{{ include.entry.image | prepend: '/assets/img/' | relative_url }}" alt="{{ include.entry.title | escape }}" loading="lazy">
+    {%- else -%}
+      <div class="entry-thumb-placeholder"></div>
+    {%- endif -%}
+  </div>
+  <div class="entry-body">
+    <h3 class="entry-title">{{ include.entry.title }}</h3>
+    {%- if include.entry.subtitle %}
+      <div class="entry-subtitle">{{ include.entry.subtitle }}</div>
+    {% endif -%}
+    {%- if include.entry.authors %}
+      <div class="entry-authors">{{ include.entry.authors | replace: 'Hemal Arora', '<strong>Hemal Arora</strong>' }}</div>
+    {% endif -%}
+    <div class="entry-meta">
+      {%- if include.entry.venue -%}
+        <span class="entry-venue">{{ include.entry.venue }}</span>
+      {%- endif -%}
+      {%- if include.entry.meta -%}
+        <span>{{ include.entry.meta }}</span>
+      {%- endif -%}
+    </div>
+    {%- if include.entry.tags %}
+      <div class="entry-tags">
+        {% for tag in include.entry.tags -%}
+          <span>{{ tag }}</span>
+        {%- endfor %}
+      </div>
+    {% endif -%}
+    {%- if include.entry.links %}
+      <div class="entry-links">
+        {% for link in include.entry.links -%}
+          <a href="{{ link.url }}">{{ link.name }}</a>
+        {%- endfor %}
+      </div>
+    {% endif -%}
+    <p class="entry-desc">{{ include.entry.description | strip }}</p>
+  </div>
 </div>
