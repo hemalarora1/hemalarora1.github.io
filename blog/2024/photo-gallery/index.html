@@ -6,7 +6,7 @@
     initTheme();
   </script> <link rel="stylesheet" href="/assets/al_img_tools/css/lightbox2-adapter.css"> <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/photoswipe@5.4.4/dist/photoswipe.min.css" crossorigin="anonymous"> <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/spotlight.js@0.7.8/dist/css/spotlight.min.css" integrity="sha256-Dsvkx8BU8ntk9Iv+4sCkgHRynYSQQFP6gJfBN5STFLY=" crossorigin="anonymous"> <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/venobox@2.1.8/dist/venobox.min.css" integrity="sha256-ohJEB0/WsBOdBD+gQO/MGfyJSbTUI8OOLbQGdkxD6Cg=" crossorigin="anonymous"> </head> <body class="fixed-top-nav sticky-bottom-footer"> <header> <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation"> <div class="container"> <a class="navbar-brand title font-weight-lighter" href="/"> Hemal Arora </a> <button class="navbar-toggler collapsed navbar-toggler-main" type="button" data-nav-toggle="navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span class="icon-bar bottom-bar"></span> </button> <div class="collapse navbar-collapse navbar-collapse-main" id="navbarNav"> <ul class="navbar-nav navbar-menu-list flex-nowrap"> <li class="nav-item "> <a class="nav-link" href="/#">About </a> </li> <li class="nav-item"> <a class="nav-link" href="/#work">Selected Work</a> </li> <li class="nav-item"> <a class="nav-link" href="/#research">Research</a> </li> <li class="toggle-container"> <button id="light-toggle" class="theme-pill" type="button" title="Change theme" aria-label="Toggle light and dark mode"> <span class="theme-pill-to-light"><i class="fa-solid fa-sun"></i> Light</span> <span class="theme-pill-to-dark"><i class="fa-solid fa-moon"></i> Dark</span> </button> <script>
                 // theme.js's click handler calls toggleThemeSetting(); flip between light and dark only.
-                toggleThemeSetting = () => setThemeSetting(determineComputedTheme() == "dark" ? "light" : "dark");
+                toggleThemeSetting = () => setThemeSetting(determineComputedTheme() == 'dark' ? 'light' : 'dark');
               </script> <style>
                 #light-toggle.theme-pill {
                   width: auto;
@@ -18,10 +18,10 @@
                   gap: 0.4rem;
                 }
                 #light-toggle .theme-pill-to-light,
-                html[data-theme="dark"] #light-toggle .theme-pill-to-dark {
+                html[data-theme='dark'] #light-toggle .theme-pill-to-dark {
                   display: none;
                 }
-                html[data-theme="dark"] #light-toggle .theme-pill-to-light {
+                html[data-theme='dark'] #light-toggle .theme-pill-to-light {
                   display: inline;
                 }
                 /* Local override: hide the site footer bar */
