@@ -55,7 +55,7 @@ Hi! I'm Hemal, a senior at Stanford studying Electrical Engineering. I'm an unde
 
 I'm interested in robotics, simulation, and learning for perception and control. I enjoy working on problems at the intersection of research and engineering: developing new methods, building end-to-end systems, and testing them on real hardware.
 
-<p class="callout">Looking for Summer 2027 research/engineering opportunities in Robotics and Physical AI.</p>
+<p class="callout">Looking for Summer 2027 internships in Robotics and Physical AI.</p>
 
 <p class="links">
   <a href="https://www.linkedin.com/in/hemalarora/">LinkedIn</a>&emsp;
