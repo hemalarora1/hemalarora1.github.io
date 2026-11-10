@@ -51,7 +51,7 @@ latest_posts:
   }
 </style>
 
-Hi! I'm Hemal, a senior at Stanford studying Electrical Engineering. I'm an undergraduate researcher at the [Interactive Perception and Robot Learning Lab](https://iprl.stanford.edu/), advised by Prof. Jeannette Bohg.
+Hi! I'm Hemal, a B.S./M.S. student in Electrical Engineering at Stanford. I'm a researcher at the [Interactive Perception and Robot Learning Lab](https://iprl.stanford.edu/), advised by Prof. Jeannette Bohg.
 
 I'm interested in robotics, simulation, and learning for perception and control. I enjoy working on problems at the intersection of research and engineering: developing new methods, building end-to-end systems, and testing them on real hardware.
 
