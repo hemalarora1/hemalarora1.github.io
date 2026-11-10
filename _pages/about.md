@@ -35,6 +35,8 @@ latest_posts:
   .entry-thumb-placeholder { background: color-mix(in srgb, var(--global-theme-color) 10%, transparent); }
   .entry-body { flex: 1; min-width: 0; }
   .entry-title { font-size: 1.3rem; font-weight: 700; line-height: 1.3; margin: 0 0 0.4rem; color: var(--global-text-color); }
+  .entry-title a { color: inherit; text-decoration: underline; text-decoration-color: var(--global-theme-color); text-underline-offset: 4px; }
+  .entry-title a:hover { color: var(--global-theme-color); }
   .entry-subtitle { font-weight: 500; margin-bottom: 0.3rem; }
   .entry-authors { color: var(--global-text-color-light); margin-bottom: 0.6rem; }
   .entry-authors strong { color: var(--global-text-color); font-weight: 800; }

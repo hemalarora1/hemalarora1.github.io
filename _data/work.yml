@@ -1,17 +1,21 @@
 # Selected Work cards on the about page (rendered by _includes/entry_card.liquid).
 # Fields: title, subtitle, meta, image (path under assets/img/), tags, links (name + url), description.
 
-- title: Mosaic Intelligence Labs, Inc. (Stealth Startup)
+- title: Mosaic Intelligence Labs
+  title_note: (Surgical Robotics)
+  url: https://mosaicintelligence.xyz/
   subtitle: Member of Technical Staff
   meta: San Francisco, CA · June – Sept 2026
   image: work/mosaic.jpg
   tags: [Simulation, State Estimation, Computer Vision, NVIDIA Warp/OptiX]
   description: >
-    Built simulation, synthetic-data, and model-training pipelines for endovascular surgical perception, spanning X-ray fluoroscopy, intravascular
-    ultrasound (IVUS), and catheter navigation. Focused on calibrated sensor simulation, sim-to-real transfer, and hardware-in-the-loop testing of
-    factor-graph based localization and mapping algorithms.
+    While Mosaic was in stealth, I built simulation, synthetic-data, and model-training pipelines for endovascular surgical perception, spanning X-ray
+    fluoroscopy, intravascular ultrasound (IVUS), and catheter navigation. I focused on calibrated sensor simulation, sim-to-real transfer, and
+    hardware-in-the-loop testing of factor-graph-based localization and mapping algorithms.
 
 - title: Multiply Labs
+  title_note: (Robotic Biomanufacturing)
+  url: https://www.multiplylabs.com/
   subtitle: Robotics Software Engineer
   meta: San Francisco, CA · June – Dec 2025
   image: work/multiply_motion_planner.jpg

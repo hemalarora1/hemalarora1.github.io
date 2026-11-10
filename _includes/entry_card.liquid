@@ -21,7 +21,16 @@
     {%- endif -%}
   </div>
   <div class="entry-body">
-    <h3 class="entry-title">{{ include.entry.title }}</h3>
+    <h3 class="entry-title">
+      {%- if include.entry.url -%}
+        <a href="{{ include.entry.url }}">{{ include.entry.title }}</a>
+      {%- else -%}
+        {{ include.entry.title }}
+      {%- endif -%}
+      {%- if include.entry.title_note %}
+        <span class="entry-title-note">{{ include.entry.title_note }}</span>
+      {%- endif -%}
+    </h3>
     {%- if include.entry.subtitle %}
       <div class="entry-subtitle">{{ include.entry.subtitle }}</div>
     {% endif -%}
